@@ -1,8 +1,8 @@
 package com.dsimon;
 
 public class Floor {
-    double width;
-    double length;
+    private double width;
+    private double length;
 
     public Floor(double width, double length) {
         if (width < 0) {
